@@ -272,7 +272,9 @@
     font-weight: 700;
     font-size: 40px;
     text-transform: uppercase;
-    padding: 133px 0px 100px;
+    padding-top: 133px;
+    margin-bottom: 100px;
+    margin-top: 0;
 }
 
 .about__text {
@@ -285,7 +287,10 @@
 .footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 180px 50px 82px;
+    padding-top: 180px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-bottom: 82px;
 }
 
 .footer__menu {
