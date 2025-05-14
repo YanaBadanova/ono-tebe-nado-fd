@@ -15,8 +15,8 @@
 }
 
 .header_logo {
-    width: 148px;
-    height: 105px;
+    width: 100%;
+    height: 100%;
     justify-self: center;
 }
 
@@ -24,9 +24,16 @@
     display: flex;
     flex-direction: row;
     justify-self: center;
-    column-gap: 32px;
     font-size: 18px;
     text-underline-offset: 4px;
+}
+
+.header__links-list li:not(:last-child) {
+    margin-right: 31.48px;
+}
+
+.header__links-list li:nth-child(2) {
+    margin-right: 34px;
 }
 
 .header__links-list-item {
@@ -42,8 +49,8 @@
 }
 
 .address {
-    max-width: 240px;
     all: initial;
+    max-width: 240px;
     display: flex;
     flex-direction: column;
     font-size: 18px;
