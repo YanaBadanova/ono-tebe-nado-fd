@@ -263,7 +263,6 @@
 .about__column {
     display: flex;
     flex-direction: column;
-    gap: 24px;
     padding-left: 25px;
 }
 
@@ -273,8 +272,7 @@
     font-size: 40px;
     text-transform: uppercase;
     padding-top: 133px;
-    margin-bottom: 100px;
-    margin-top: 0;
+    margin: 0 0 100px 0;
 }
 
 .about__text {
@@ -282,12 +280,14 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
+    margin: 0 0 24px 0;
 }
 
 .footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding-top: 180px;
+    height: 180px;
+    margin-top: 180px;
     padding-right: 50px;
     padding-left: 50px;
     margin-bottom: 82px;
