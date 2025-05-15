@@ -94,6 +94,7 @@
 
 .aligned-text {
   display: block;
+  margin-right: -0.3em;
 }
 
 .aligned-text_center {
@@ -104,7 +105,6 @@
 .aligned-text_right {
   text-align: right;
   padding-top: 20px;
-  margin-right: -0.3em;
 }
 
 .cover__description {
@@ -269,13 +269,13 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  margin: 0 0 24px 0;
+  margin: 0 24px 24px 0;
 }
 
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-top: 180px;
+  margin-top: 156px;
   padding-right: 50px;
   padding-left: 50px;
   margin-bottom: 82px;
